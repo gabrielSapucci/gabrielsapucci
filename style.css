@@ -439,7 +439,7 @@ header.scrollMode {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("./img/background-2.jpg");
+  background: url("./background-2.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
