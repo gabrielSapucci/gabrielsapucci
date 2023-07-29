@@ -545,7 +545,6 @@ header.scrollMode {
 
 .txt-area-box {
   width: 350px;
-
   background: var(--white);
 }
 
@@ -559,6 +558,7 @@ header.scrollMode {
   border: none;
   color: var(--black);
   font-size: 16px;
+  background: var(--white);
 }
 
 .txt-area-box textarea::-webkit-scrollbar {
