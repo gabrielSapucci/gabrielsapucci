@@ -28,6 +28,17 @@ window.addEventListener('scroll', () => {
   }
 })
 
+const link = document.querySelectorAll(".internal-link")
+link.forEach(el => {
+  el.addEventListener("click", () => {
+    if (menu.classList.contains("active")) {
+      menu.classList.remove("active")
+      navbar.style.transition = ".3s"
+      navbar.style.right = "-100%"
+    }
+  })
+})
+
 
 textarea.addEventListener("keyup", e => {
   let scHeight = e.target.scrollHeight
