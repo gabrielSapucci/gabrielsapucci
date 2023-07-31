@@ -758,10 +758,6 @@ footer {
     z-index: 100;
   }
 
-  .navbar li {
-    margin-left: 0;
-  }
-
   .navbar.scroll {
     top: 0px;
     height: calc(100vh);
@@ -769,6 +765,7 @@ footer {
 
   .navbar li, .navbar a {
     color: white;
+    margin-left: 0;
   }
 
   .navbar a {
