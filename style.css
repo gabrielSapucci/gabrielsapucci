@@ -807,8 +807,8 @@ footer {
   }
 
   .about-us-txt {
-    width: 400px;
-    
+    width: 450px;
+    padding: 40px 50px;
   }
 
 }
@@ -821,6 +821,12 @@ footer {
     height: 0;
     background: transparent;
   }
+
+  .about-us-txt {
+    width: 400px;
+    padding: 40px 50px;
+  }
+  
 }
 
 @media screen and (max-width:480px) {
@@ -843,6 +849,7 @@ footer {
 
   .about-us-txt {
     width: 350px;
+    padding: 35px 45px;
   }
 
   .client-opinion {
