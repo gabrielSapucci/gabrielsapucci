@@ -154,13 +154,15 @@
   <section class="container-contact">
     <div id="contact" class="contact-area">
       <h3><span>F</span>ale conosco</h3>
-      <form action="" class="contact-form">
-        <div class="input-box"><input required placeholder="Nome" type="text" name="input-name" id="input-name"></div>
-        <div class="input-box"><input required placeholder="Email" type="email" name="input-email" id="input-email"></div>
+      <form action="https://formsubmit.co/gabrielsapucci01@gmail.com" method="POST" class="contact-form">
+        <div class="input-box"><input required placeholder="Nome" type="text" name="name" id="input-name"></div>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+        <div class="input-box"><input required placeholder="Email" type="email" name="email" id="input-email"></div>
         <div class="input-box"><input required placeholder="Assunto" type="text" name="assunto-email" id="assunto-email">
         </div>
-        <div class="txt-area-box"><textarea required placeholder="Texto..." name="texto-email" id=""></textarea></div>
-        <button class="button-enviar">Enviar</button>
+        <div class="txt-area-box"><textarea required placeholder="Texto..." name="message" id=""></textarea></div>
+        <button type="submit" class="button-enviar">Enviar</button>
       </form>
     </div>
   </section>
